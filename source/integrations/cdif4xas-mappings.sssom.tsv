@@ -1,6 +1,6 @@
 # comment: Manual integration of the DMPinfoPool ontologie with related ontologies.
 # curie_map:
-#   cd4pan: http://www.purl.org/cdi4pan/cdpn/
+#   cd4xas: http://www.purl.org/cdif4xas/
 #   cdif: http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/
 #   orcid: https://orcid.org/
 #   owl: http://www.w3.org/2002/07/owl#
@@ -12,20 +12,20 @@
 #   sssom: https://w3id.org/sssom/
 #   wikidata: https://www.wikidata.org/wiki/
 # license: https://creativecommons.org/licenses/by/4.0/
-# mapping_date: '2024-01-17'
+# mapping_date: '2025-06-01'
 # mapping_set_description: Manual integration of the XAS variable cascade ontologie with related ontologies.
-# mapping_set_id: http://www.purl.org/dmpinfopool/DMPinfoPool/mappings.sssom.tsv
-# mapping_set_version: '2024-01-17'
-# object_source: http://www.purl.org/cdi4pan/cdpn/
-# object_source_version: http://www.purl.org/cdi4pan/cdpn/
+# mapping_set_id: http://www.purl.org/cdif4xas/cdif4xas.mappings.sssom.tsv
+# mapping_set_version: '2025-06-01'
+# object_source: http://www.purl.org/cdif4xas/
+# object_source_version: http://www.purl.org/cdif4xas/
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	object_source_version	mapping_date	confidence	comment
-cd4pan:instanceVariable-NormalizedRefXAS	Instance variable RefXAS Normalized	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06	1.0	
-cd4pan:instanceVariable-Normalized-XDI	Instance variable XDI Normalized	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06	1.0	
-cd4pan:instanceVariable-Normalized-NeXus	Instance variable NeXus Normalized	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06	1.0	
-cd4pan:representiveVariable-Normalized	Representive variable Normalized	rdf:type	cdif:RepresentedVariable	RepresentedVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06	1.0	
-cd4pan:instanceVariable-NormalizedRefXAS	Instance variable RefXAS Normalized	cdif:Concept_uses_Concept	cd4pan:representiveVariable-Normalized	RepresentedVariable Normalized	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06	1.0	
-cd4pan:instanceVariable-Normalized-XDI	Instance variable XDI Normalized	cdif:Concept_uses_Concept	cd4pan:representiveVariable-Normalized	RepresentedVariable Normalized	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06	1.0	
-cd4pan:instanceVariable-Normalized-NeXus	Instance variable NeXus Normalized	cdif:Concept_uses_Concept	cd4pan:representiveVariable-Normalized	RepresentedVariable Normalized	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06	1.0	
-cd4pan:representiveVariable-Normalized	Representive variable Normalized	dif:RepresentedVariable-simpleUnitOfMeasure	eV	eV	semapv:ManualMappingCuration	orcid:0000-0001-9121-8645		2025-06-06		
-cd4pan:conceptualVariable-Normalized	Conceptual variable Normalized	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06	1.0	
-cd4pan:representiveVariable-Normalized	Representive variable Normalized	cdif:Concept_uses_Concept	cd4pan:conceptualVariable-Normalized	Conceptual variable Normalized	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06	1.0	
+cd4xas:instanceVariable-NormalizedRefXAS	Instance variable RefXAS Energy	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:instanceVariable-Energy-XDI	Instance variable XDI Energy	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:instanceVariable-Energy-NeXus	Instance variable NeXus Energy	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:representiveVariable-Energy	Representive variable Energy	rdf:type	cdif:RepresentedVariable	RepresentedVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:instanceVariable-EnergyRefXAS	Instance variable RefXAS Energy	cdif:Concept_uses_Concept	cd4xas:representiveVariable-Energy	RepresentedVariable Energy	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:instanceVariable-Energy-XDI	Instance variable XDI Energy	cdif:Concept_uses_Concept	cd4xas:representiveVariable-Energy	RepresentedVariable Energy	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:instanceVariable-Energy-NeXus	Instance variable NeXus Energy	cdif:Concept_uses_Concept	cd4xas:representiveVariable-Energy	RepresentedVariable Energy	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:representiveVariable-Energy	Representive variable Energy	dif:RepresentedVariable-simpleUnitOfMeasure	eV	eV	semapv:ManualMappingCuration	orcid:0000-0001-9121-86452025-06-06
+cd4xas:conceptualVariable-Energy	Conceptual variable Energy	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:representiveVariable-Energy	Representive variable Energy	cdif:Concept_uses_Concept	cd4xas:conceptualVariable-Energy	Conceptual variable Energy	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
