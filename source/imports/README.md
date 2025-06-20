@@ -21,7 +21,7 @@ robot merge \
 
 robot remove \
 --input ddi-cdi-source/cdi-ddi.owl \
---select indivduals \
+--select individuals \
 --output ddi-cdi-source/cdi-ddi_ohne.owl
 
 	
