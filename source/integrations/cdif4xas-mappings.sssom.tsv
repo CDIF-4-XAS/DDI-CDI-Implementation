@@ -19,7 +19,7 @@
 # object_source: http://www.purl.org/cdif4xas/
 # object_source_version: http://www.purl.org/cdif4xas/
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	object_source_version	mapping_date	confidence	comment
-cd4xas:instanceVariable-NormalizedRefXAS	Instance variable RefXAS Energy	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:instanceVariable-Energy-RefXAS	Instance variable RefXAS Energy	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
 cd4xas:instanceVariable-Energy-XDI	Instance variable XDI Energy	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
 cd4xas:instanceVariable-Energy-NeXus	Instance variable NeXus Energy	rdf:type	cdif:InstanceVariable	InstanceVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
 cd4xas:representiveVariable-Energy	Representive variable Energy	rdf:type	cdif:RepresentedVariable	RepresentedVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
