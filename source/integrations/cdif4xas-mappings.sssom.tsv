@@ -29,3 +29,9 @@ cd4xas:instanceVariable-Energy-NeXus	Instance variable NeXus Energy	cdif:Concept
 cd4xas:representiveVariable-Energy	Representive variable Energy	dif:RepresentedVariable-simpleUnitOfMeasure	eV	eV	semapv:ManualMappingCuration	orcid:0000-0001-9121-86452025-06-06
 cd4xas:conceptualVariable-Energy	Conceptual variable Energy	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
 cd4xas:representiveVariable-Energy	Representive variable Energy	cdif:Concept_uses_Concept	cd4xas:conceptualVariable-Energy	Conceptual variable Energy	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
+cd4xas:RefXASexampleFile	RefXASexampleFile	rdf:type	cdif:PhysicalDataSet	PhysicalDataSet
+cd4xas:RefXASexampleFileallowsDuplicates
+cd4xas:RefXASexampleFilephysicalFileName
+cd4xas:RefXASexampleFilecorrespondsTo_DataSet
+cd4xas:RefXASexampleFileformats
+cd4xas:RefXASexampleFilehas_PhysicalRecordSegment
