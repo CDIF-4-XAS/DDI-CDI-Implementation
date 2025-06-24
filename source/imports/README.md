@@ -17,6 +17,7 @@ robot merge \
 -i  ddi-cdi-source/KeyValue.onto.ttl \
 -i  ddi-cdi-source/FormatDescription.onto.ttl  \
 -i  ddi-cdi-source/StructuredDataTypes.onto.ttl  \
+annotate --ontology-iri http://ddialliance.org/Specification/DDI-CDI/1.0/RDF/ \
 -o ddi-cdi-source/cdi-ddi.owl
 
 
