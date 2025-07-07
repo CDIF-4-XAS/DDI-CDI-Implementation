@@ -69,3 +69,52 @@ cd4xas:instanceVariable-Normalized-RefXAS	InstanceVariable-Normalized-RefXAS	cdi
 cd4xas:instanceVariable-Energy-RefXAS	Instance variable-Energy-RefXAS	cdif:InstanceVariable-physicalDataType	cd4xas:ControlledVocabularyEntry-numeric	ControlledVocabularyEntry-numeric	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-42	1.0	
 cd4xas:ControlledVocabularyEntry-numeric	ControlledVocabularyEntry-numeric	rdf:type	cdif:ControlledVocabularyEntry	ControlledVocabularyEntry	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-43	1.0	
 cd4xas:ControlledVocabularyEntry-numeric	ControlledVocabularyEntry-numeric	cdif:ControlledVocabularyEntry-entryValue	numeric	numeric	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-44	1.0	
+cd4xas:conceptualVariable-Angle	Conceptual variable Angle	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Intensity	Conceptual variable Intensity	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Tramsmission	Conceptual variable Transmission	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Reference	Conceptual variable Reference	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Fluorescence	Conceptual variable Fluorescence	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Mu-Tramsmission	Conceptual variable Mu Transsmission	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Mu-Reference	Conceptual variable Mu Reference	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Mu-Fluorescence	Conceptual variable Mu Fluorescence	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Normalised-Tramsmission	Conceptual variable Normalised Transsmission	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Normalised-Reference	Conceptual variable Normalised Reference	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Normalised-Fluorescence	Conceptual variable Normalised Fluorescence	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-K	Conceptual variable K	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Chi	Conceptual variable Chi	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Chi-Mag	Conceptual variable Chi Mag	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Chi-Pha	Conceptual variable Chi Pha	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Chi-Re	Conceptual variable Chi Re	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Chi-Im	Conceptual variable Chi Im	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-R	Conceptual variable R	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Chir-Mag	Conceptual variable Chir Mag	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Chir-Pha	Conceptual variable Chir Pha	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Chir-Re	Conceptual variable Chir Re	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Chir-Im	Conceptual variable Chir Im	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Facility-Name	Conceptual variable Facility Name	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Facility-Energy	Conceptual variable Facility Energy	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Facility-Current	Conceptual variable Facility Current	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Facility-Xray-Source	Conceptual variable Facility Xray Source	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Beamline-Name	Conceptual variable Beamline Name	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Beamline-Collimation	Conceptual variable Beamline Collimation	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Beamline-Focusing	Conceptual variable Beamline Focusing	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Beamline-Harmonic-Rejection	Conceptual variable Beamline Harmonic Rejection	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Element-Name	Conceptual variable Element Name	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Element-D-Spacing	Conceptual variable Element D Spacing	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Detector-I0	Conceptual variable Detector I0	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Detector-It	Conceptual variable Detector It	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Detector-If	Conceptual variable Detector If	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Detector-Ir	Conceptual variable Detector Ir	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Sample-Name	Conceptual variable Sample Name	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Sample-Id	Conceptual variable Sample Id	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Sample-Stoichiometry	Conceptual variable Sample Stoichiometry	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Sample-Prep	Conceptual variable Sample Prep	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Sample-Experimenters	Conceptual variable Sample Experimenters	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Sample-Temperature	Conceptual variable Sample Temperature	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Scan-Start-Time	Conceptual variable Scan Start Time	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Scan-End-Time	Conceptual variable Scan End Time	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Scan-Edge-Energy	Conceptual variable Scan Edge Energy	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Element-Symbol	Conceptual variable Element Symbol	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Element-Edge	Conceptual variable Element Edge	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Element-Reference	Conceptual variable Element Reference	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
+cd4xas:conceptualVariable-Element-Ref-Edge	Conceptual variable Element Ref Edge	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
