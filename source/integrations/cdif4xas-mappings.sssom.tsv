@@ -71,13 +71,13 @@ cd4xas:ControlledVocabularyEntry-numeric	ControlledVocabularyEntry-numeric	rdf:t
 cd4xas:ControlledVocabularyEntry-numeric	ControlledVocabularyEntry-numeric	cdif:ControlledVocabularyEntry-entryValue	numeric	numeric	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-44	1.0	
 cd4xas:conceptualVariable-Angle	Conceptual variable Angle	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
 cd4xas:conceptualVariable-Intensity	Conceptual variable Intensity	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
-cd4xas:conceptualVariable-Tramsmission	Conceptual variable Transmission	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Transmission	Conceptual variable Transmission	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
 cd4xas:conceptualVariable-Reference	Conceptual variable Reference	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
 cd4xas:conceptualVariable-Fluorescence	Conceptual variable Fluorescence	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
-cd4xas:conceptualVariable-Mu-Tramsmission	Conceptual variable Mu Transsmission	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Mu-Transmission	Conceptual variable Mu Transmission	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
 cd4xas:conceptualVariable-Mu-Reference	Conceptual variable Mu Reference	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
 cd4xas:conceptualVariable-Mu-Fluorescence	Conceptual variable Mu Fluorescence	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
-cd4xas:conceptualVariable-Normalised-Tramsmission	Conceptual variable Normalised Transsmission	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
+cd4xas:conceptualVariable-Normalised-Transmission	Conceptual variable Normalised Transmission	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
 cd4xas:conceptualVariable-Normalised-Reference	Conceptual variable Normalised Reference	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
 cd4xas:conceptualVariable-Normalised-Fluorescence	Conceptual variable Normalised Fluorescence	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration			2025/07/07		
 cd4xas:conceptualVariable-K	Conceptual variable K	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0002-6279-7823		2025/07/07		
