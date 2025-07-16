@@ -8,6 +8,7 @@
 #   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 #   rdfs: http://www.w3.org/2000/01/rdf-schema#
 #   semapv: https://w3id.org/semapv/vocab/
+#   sidf: https://si-digital-framework.org/SI/units/
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   sssom: https://w3id.org/sssom/
 #   wikidata: https://www.wikidata.org/wiki/
@@ -28,7 +29,7 @@ cd4xas:representedVariable-Energy	Represented variable Energy	rdf:type	cdif:Repr
 cd4xas:instanceVariable-Energy-RefXAS	Instance variable RefXAS Energy	cdif:Concept_uses_Concept	cd4xas:representedVariable-Energy	RepresentedVariable Energy	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
 cd4xas:instanceVariable-Energy-XDI	Instance variable XDI Energy	cdif:Concept_uses_Concept	cd4xas:representedVariable-Energy	RepresentedVariable Energy	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
 cd4xas:instanceVariable-Energy-NeXus	Instance variable NeXus Energy	cdif:Concept_uses_Concept	cd4xas:representedVariable-Energy	RepresentedVariable Energy	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
-cd4xas:representedVariable-Energy	Represented variable Energy	dif:RepresentedVariable-simpleUnitOfMeasure	eV	eV	semapv:ManualMappingCuration	orcid:0000-0001-9121-86452025-06-06
+cd4xas:representedVariable-Energy	Represented variable Energy	cdif:RepresentedVariable-simpleUnitOfMeasure	sidf:electronvolt	electronvolt	semapv:ManualMappingCuration	orcid:0000-0001-9121-8643		2025-06-06
 cd4xas:conceptualVariable-Energy	Conceptual variable Energy	rdf:type	cdif:ConceptualVariable	ConceptualVariable	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
 cd4xas:representedVariable-Energy	Represented variable Energy	cdif:Concept_uses_Concept	cd4xas:conceptualVariable-Energy	Conceptual variable Energy	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-06	1.0	
 cd4xas:refXASexampleFile	RefXASexampleFile	rdf:type	cdif:PhysicalDataSet	PhysicalDataSet	semapv:ManualMappingCuration	orcid:0000-0001-9121-86432025-06-07	1.0	
