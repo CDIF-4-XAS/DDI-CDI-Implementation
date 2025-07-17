@@ -1,0 +1,56 @@
+name: CI
+on:
+  workflow_dispatch:
+      inputs:
+        manual:
+          description: Manually run
+          required: false
+          type: boolean
+          default: false
+
+  pull_request:
+  push:
+    tags:
+      - 'v*'
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+
+    name: Tests
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' 
+
+      - name: Load Pip cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('requirements.txt') }}
+
+      - name: Install runner requirements
+        run: pip install -r requirements.txt
+
+      - name: Run SSSOM
+        id: sssom
+        run: |
+          sssom convert source/integrations/cdif4xas-mappings.sssom.tsv --output-format owl -o cdif4xas-mappings.sssom.owl 2>stderr
+          echo "SSSOM_STDERR=$(cat stderr)" >> "$GITHUB_OUTPUT"
+
+      - name: Check stderr
+        if: ${{ steps.sssom.outputs.sssom_stderr }}
+        env:
+          SSSOM_STDERR: ${{ steps.sssom.outputs.sssom_stderr }}
+        run: |
+          echo "::error:: $SSSOM_STDERR"
+          exit 1
